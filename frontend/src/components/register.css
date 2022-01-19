@@ -1,0 +1,60 @@
+.loginpage{
+    height:100%;
+    width:100%;
+    background-color: lightskyblue;
+    position: absolute;
+}
+.inputtask{
+    width:320px;
+    height:450px;
+    position:relative;
+    background-color: #fff;
+    margin:7% auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+.header h1{
+    position:relative;
+    text-align: center;
+    color: rgb(17, 161, 4);
+}
+.input-form{
+    position:absolute;
+    width:300px;
+    margin-top:-10px;
+}
+.input-field{
+    width:100%;
+    padding:10px 0;
+    margin: 10px 0;
+    border-left: 0;
+    border-top:0;
+    border-right:0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background:transparent;
+}
+.submit-btn{
+    width:85%;
+    padding:10px 30px;
+    display: block;
+    margin:auto;
+    background-color: rgb(17, 161, 4);
+    border:0;
+    outline:none;
+    border-radius: 30px;
+    color:white;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+span{
+    color:#777;
+    font-size:14px;
+}
+.registertask{
+    margin-top: 30px;
+    font-size: 14px;  
+}
+a{
+    text-decoration: none;
+}

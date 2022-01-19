@@ -1,0 +1,59 @@
+.loginpage{
+    height:100%;
+    width:100%;
+    background-color: lightskyblue;
+    position: absolute;
+}
+.inputtask{
+    width:320px;
+    height:400px;
+    position:relative;
+    background-color: #fff;
+    margin:7% auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+.input-form{
+    margin-top: 30px;
+    position:absolute;
+    width:300px;
+}
+.input-field{
+    width:100%;
+    padding:10px 0;
+    margin: 10px 0;
+    border-left: 0;
+    border-top:0;
+    border-right:0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background:transparent;
+}
+.submit-btn{
+    width:85%;
+    padding:10px 30px;
+    display: block;
+    margin:auto;
+    background-color: green;
+    border:0;
+    outline:none;
+    border-radius: 30px;
+    color:white;
+    font-weight: bolder;
+}
+.check-box{
+    margin:30px 10px 20px 0;
+}
+span{
+    color:#777;
+    font-size:14px;
+}
+.registertask{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-size: 14px;  
+}
+a{
+    text-decoration: none;
+}
