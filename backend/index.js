@@ -30,9 +30,32 @@ app.post('/login',(req,res)=>{
     res.status(200).json({
         status:"Token is Successfully Generated",
         token: token
-    })
-})
+    });
+});
 
+// -------------- Sending data to DataBase ------------
+
+app.post('/cities', async (req,res)=>{
+    try{
+        const CityData = await cities.insertMany(data)
+        res.status(200).json({
+            Status:"Added Sucessfully",
+            cities:CityData
+        })
+    }
+    catch(err){
+        res.status(400).json({
+            Status: "Failed",
+            message: err.message
+        })
+    }
+});
+
+// data.forEach(element => {
+//     city = new cities(element).save().then().catch(err=>{
+//         console.log(err)
+//     })
+// });
 
 
 const port=4500
